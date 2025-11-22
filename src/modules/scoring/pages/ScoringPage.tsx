@@ -1,5 +1,11 @@
-const ScoringPage = () => {
-  return <div>ScoringPage</div>;
-};
+import { ScorecardEngine } from './ScorecardEngine';
 
-export default ScoringPage;
+export const ScoringPage = () => {
+  return (
+    <>
+      <div className="bg-sky-50 p-6 min-h-screen">
+        <ScorecardEngine />
+      </div>
+    </>
+  );
+};
