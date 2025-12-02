@@ -262,7 +262,7 @@ export const ScorecardEngine: React.FC = () => {
               </table>
             </div>
 
-            {/* Mobile  */}
+            {/* Mobile card */}
 
             <div className="block sm:hidden flex flex-col gap-4 mt-6">
               {variables.map((v) => (
