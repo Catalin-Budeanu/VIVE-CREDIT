@@ -248,13 +248,6 @@ export const ScorecardEngine: React.FC = () => {
                         >
                           Editează
                         </button>
-
-                        <button
-                          className="text-red-600 border border-gray-400 rounded-md py-1 px-3 hover:text-red-400 text-sm"
-                          onClick={() => handleDeleteVariable(v.id)}
-                        >
-                          Șterge
-                        </button>
                       </td>
                     </tr>
                   ))}
